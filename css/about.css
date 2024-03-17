@@ -1,0 +1,53 @@
+/* About-main styles */
+.about-main-section {
+    background-image: url(/img/proj.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+h1{
+    color: #ffff;
+    align-self: center;
+    font-size: calc(2vw + 20px); /* Розмір тексту залежить від ширини вікна */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/* Goal section styles */
+.goal{
+    padding: 50px 20px;
+}
+
+
+/* Team section styles */
+@keyframes slide{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+
+}
+
+.team{
+    padding: 50px 20px;    
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+
+}
+
+
+.block-team__card{
+    display: inline-block;
+    animation: 30s slide infinite linear;
+}

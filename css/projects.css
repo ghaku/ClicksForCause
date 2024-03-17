@@ -1,0 +1,21 @@
+/* About-main styles */
+.projects-main-section {
+    background-image: url(/img/about.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+h1{
+    color: #ffff;
+    align-self: center;
+    font-size: calc(2vw + 20px); /* Розмір тексту залежить від ширини вікна */
+    font-weight: bold;
+    text-transform: uppercase;
+}
